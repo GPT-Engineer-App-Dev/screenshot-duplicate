@@ -1,5 +1,5 @@
 import { Box, Flex, VStack, HStack, Text, Spacer, Avatar, Badge, IconButton } from "@chakra-ui/react";
-import { FaMagic, FaBug, FaDesignServices, FaContent, FaMarketing, FaTesting, FaPlus } from "react-icons/fa";
+import { FaMagic, FaBug, FaPencilRuler, FaContent, FaMarketing, FaTesting, FaPlus } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import TaskList from "../components/TaskList";
@@ -7,7 +7,7 @@ import TaskList from "../components/TaskList";
 const tasks = {
   inProgress: [
     { title: "Push new update", status: "ENG-345", statusColor: "yellow", icon: <FaMagic />, iconLabel: "Magic", date: "Feb 18", assignee: "User" },
-    { title: "Design mobile components", status: "ENG-345", statusColor: "yellow", icon: <FaDesignServices />, iconLabel: "Design", date: "Feb 18", assignee: "User" },
+    { title: "Design mobile components", status: "ENG-345", statusColor: "yellow", icon: <FaPencilRuler />, iconLabel: "Design", date: "Feb 18", assignee: "User" },
     { title: "Release new website", status: "ENG-345", statusColor: "yellow", icon: <FaMagic />, iconLabel: "Magic", date: "Feb 18", assignee: "User" },
   ],
   backlog: [
@@ -19,7 +19,7 @@ const tasks = {
     { title: "Tease product update", status: "ENG-345", statusColor: "blue", icon: <FaMarketing />, iconLabel: "Marketing", date: "Feb 18", assignee: "User" },
   ],
   done: [
-    { title: "Design blog page", status: "ENG-345", statusColor: "green", icon: <FaDesignServices />, iconLabel: "Design", date: "Feb 18", assignee: "User" },
+    { title: "Design blog page", status: "ENG-345", statusColor: "green", icon: <FaPencilRuler />, iconLabel: "Design", date: "Feb 18", assignee: "User" },
     { title: "Compile user feedback", status: "ENG-345", statusColor: "green", icon: <FaTesting />, iconLabel: "Testing", date: "Feb 18", assignee: "User" },
     { title: "Fix CSS in hero section", status: "ENG-345", statusColor: "green", icon: <FaBug />, iconLabel: "Bug", date: "Feb 18", assignee: "User" },
   ],
